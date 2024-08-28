@@ -59,7 +59,7 @@ local function create_vdevice(driver)
                               model = MODEL,
                               vendor_provided_label = VEND_LABEL,
                             }
-                      
+  
   assert (driver:try_create_device(create_device_msg), "failed to create device")
         
 end
@@ -259,7 +259,7 @@ local function handler_infochanged (driver, device, event, args)
     elseif args.old_st_store.preferences.secret ~= device.preferences.secret then 
       log.info ('Secret changed to', device.preferences.secret)
       
-    elseif (args.old_st_store.preferences.monfreq ~= device.preferences.monfreq) or 
+      elseif (args.old_st_store.preferences.monfreq ~= device.preferences.monfreq) or 
            (args.old_st_store.preferences.monitor ~= device.preferences.monitor) then 
       log.info ('Monitor enabled?', device.preferences.monitor)
       log.info ('\tMonitor frequency:', device.preferences.monfreq)

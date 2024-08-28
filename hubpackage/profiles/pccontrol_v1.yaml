@@ -9,7 +9,7 @@ components:
       - id: refresh
         version: 1
     categories:
-      - name: Switch
+      - name: Television
   - id: Utility
     capabilities:
       - id: "partyvoice23922.createanother"

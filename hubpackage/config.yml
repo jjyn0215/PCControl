@@ -1,4 +1,4 @@
-name: 'PC Control V1'
+name: 'PC Control V1 modified'
 packageKey: 'pccontrolv1'
 permissions:
     lan: {}
