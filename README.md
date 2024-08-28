@@ -3,6 +3,9 @@ SmartThings Edge driver to control and monitor a Windows PC with a SmartThings d
 
 This driver uses Wake-on-LAN to wake up a PC, and sends HTTP requests to a third-party opensource PC Windows package to control the PC's shutdown operation.
 
+
+Forked from [@toddaustin07](https://github.com/toddaustin07/PCControl) to change device type as TV
+
 ## Requirements
 * SmartThings Hub
 * Windows PC
