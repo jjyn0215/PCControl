@@ -41,7 +41,7 @@ The driver can also monitor the on/off state of the PC by enabling this option i
   * Secret code (optional)
   * Port (ensure whatever is configured is unused)
 ### Edge Driver
-* Proceed to this driver's [channel invite page](https://bestow-regional.api.smartthings.com/invite/Q1jP7BqnNNlL).  Enroll your hub and select the **PC Control V1** driver to install to your hub.
+* Proceed to this driver's [channel invite page](https://bestow-regional.api.smartthings.com/invite/OzMgQBYw48l9).  Enroll your hub and select the **PC Control V1** driver to install to your hub.
 * Once the driver is available on your hub (could take up to 12 hours), the next time you use the SmartThings mobile app to do an *Add device / Scan for nearby devices*, a new device will be created and found in the SmartThings room where your hub device is located.
 #### Device Configuration
 * Open the device to its Controls screen and then select the 3-vertical-dot menu in the upper right corner then select **Settings**.  
